@@ -1,0 +1,106 @@
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #fff;
+    background-image: url(../images/main-bg.jpg);
+    background-position: center top;
+    background-size: contain!Important;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 1477px;
+    width: 1903px;
+    position: relative;
+}
+
+header a {
+    display: block;
+    padding: 0px 20px !important;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: unset;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    filter: drop-shadow(2px 2px 4px black);
+    width: 800px;
+    max-width: unset;
+}
+
+img.shield {
+    display: block;
+    width: 600px;
+    max-width: unset;
+    height: auto;
+    margin: 0 auto;
+    background-blend-mode: lighten;
+}
+
+.group {
+    max-width: 1800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.group:before, .group:after {
+    content: none;
+    display: table;
+}
+
+.codigo img {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+section font {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    max-width: unset;
+    color: #fff;
+    background: -moz-linear-gradient(left, #4c0a15 1%, #39060f 100%);
+    background: -webkit-linear-gradient(left, #4c0a15 1%,#39060f 100%);
+    background: linear-gradient(to right, #4c0a1f 1%,#39060f 100%);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    max-width: unset;
+    margin: -44px auto;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 5px 20px 10px 20px;
+    transition: all 0.3s ease;
+    height: 151px;
+    background-image: url(../images/cta.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: unset;
+    width: 667px;
+}
